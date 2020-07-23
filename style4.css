@@ -1,0 +1,65 @@
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:black;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color:black;
+  color: white;
+}
+
+.logo{
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+}
+
+.about{
+	height:2200px;
+	width: 100%;
+	padding: 120px 0px;
+}
+
+.about h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.about h5{
+	font-family: cursive;
+}
+.card{
+	margin-top: 40px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+	height: 60px;
+	 
+}
+
+.footer h5{
+	line-height: 60px;
+}
+
+@media(max-width: 479px){
+.about{
+	height:5550px;
+	width: 100%;
+	padding: 120px 0px;
+}
+
+
+.footer{
+  margin-top:0px;
+  height: 125px;
+  
+}
+
+.footer h5{
+  line-height: 60px;
+  color:black;
+}
+
+}

@@ -1,0 +1,60 @@
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:black;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color:black;
+  color: white;
+}
+
+/* heading code */
+
+.hd h1{
+	padding-top:130px;
+	font-size: 50px;
+	font-weight:bold;
+	color:black;
+	font-family:cursive;
+}
+.hd h5{
+	font-family: cursive;
+}
+
+/* vedio padding code */
+
+.vdo{
+	padding-top:50px;
+	margin-left:30px;
+}
+
+/* footer code */
+
+.footer{
+	margin-top:40px;
+	height: 60px;
+ 
+}
+
+.footer h5{
+	line-height: 60px;
+	color: black;
+}
+
+/* media query */ 
+
+@media(max-width: 479px){
+	.vdo{
+	padding-top:50px;
+	margin-left:120px;
+}
+.footer{
+	height: 125px;
+
+}
+
+}

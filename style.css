@@ -1,0 +1,137 @@
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:black;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color:black;
+  color: white;
+}
+
+.logo{
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+}
+
+/* background image and center hading*/
+.bgimg{
+	background-image: url('homeimages/g1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+}
+
+.headerset{
+	padding-top: 350px;
+	box-sizing: border-box;
+}
+.headerset h3{
+	font-size: 42px;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+	letter-spacing:2px;
+	font-family: cursive;
+    }
+
+.headerset h1{
+	font-size: 62px;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+	letter-spacing:2px;
+	font-family: cursive;
+}
+
+/*Memories section css*/
+.memo{
+	height:2150px;
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.memo h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.memo h5{
+	font-family: cursive;
+}
+.card{
+	margin-top: 40px;
+}
+
+/*our gang section css*/
+.ourteam{
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.ourteam h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.ourteam h5{
+	font-family: cursive;
+}
+
+.teamsetting{
+	margin-top: 70px !important;
+}
+
+/*footer section css*/
+.footer{
+	height: 60px; 
+}
+
+.footer h5{
+	line-height: 60px;
+	color: black;
+}
+
+
+
+/*media querey css*/
+
+@media(max-width: 479px){
+	.headerset{
+	padding-top: 350px;
+	box-sizing: border-box;
+}
+	.headerset h3{
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+	letter-spacing:2px;
+	font-family: cursive;
+    }
+
+.headerset h1{
+	font-size: 42px;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
+	letter-spacing:2px;
+	font-family: cursive;
+      }
+
+.memo h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: cursive;
+}
+ .memo{
+ 	height:5450px;
+ }     
+ .footer{
+	height: 125px;
+
+}
+}
+
+
+
+
